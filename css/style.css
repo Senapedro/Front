@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Smokum&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Shantell Sans, Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://s2.glbimg.com/kfRU1JAF54P0M2KYUQ8-GwKsbRs=/512x320/smart/e.glbimg.com/og/ed/f/original/2015/11/05/sucesso-inspiracao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff35;
+    backdrop-filter: blur(5px);
+    width: 700px;
+    height: 300px;
+    border-radius: .4rem;
+}
+
+section h1 {
+    font-size: 3rem;
+    color: yellow;
+    text-shadow: black 4px 4px;
+}
+
+button#get-advice {
+    background-color: rgba(224, 224, 4, 0.904);
+    font-size: 2rem;
+    width: 30%;
+    height: 15%;
+    border-width: 3px;
+    border-color: yellow;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+p#advice {
+    font-size: 1.5rem;
+    text-align: center;
+    color: yellow;
+    text-shadow: black 1.2px 1.3px;
+    font-weight: bold;
+}
